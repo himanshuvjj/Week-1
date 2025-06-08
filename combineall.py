@@ -1,13 +1,13 @@
 n = int(input("Enter the number of rows: "))
 
-print("\nLower Triangular :")
+print("\nLower Triangular Matrix:")
 for i in range(n):
     for j in range(i + 1):
         print("*", end=" ")
     print()
 
 
-print("\nUpper Triangular :")
+print("\nUpper Triangular Matrix:")
 for i in range(n):
     for j in range(n):
         if j >= i:
